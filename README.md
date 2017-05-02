@@ -1,5 +1,5 @@
 # state-program-report-tabulate
-Python script that tabulates the wide CSV output of state-program-report.
+tabulate.py is a python script that tabulates the wide CSV output of state-program-report.
 
 compose_dtypes.py creates a JSON-formatted file containing dtypes for the fields in each fiscal year's data.
 Run this script first!
