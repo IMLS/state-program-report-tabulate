@@ -37,6 +37,10 @@ generated_path = os.path.join(git_path,
 
 folders = glob.glob(generated_path + "/*")
 outpath = os.path.join(cwd_path, 'tabulated')
+
+if not os.path.exists(outpath):
+	os.makedirs(outpath)
+
 dtypes_file = os.path.join(cwd_path, 'dtypes_' + fy + '.json')
 
 """ DEFINE FUNCTIONS - - - - - - - - - - - - - - - - - - - - - - - - - - """
